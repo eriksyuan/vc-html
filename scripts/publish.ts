@@ -1,11 +1,10 @@
 import { execSync } from 'child_process'
 import consola from 'consola'
-import path from 'path'
 
 async function run() {
   try {
     await execSync('npm run rollup')
-    execSync('npm publish --access public', { stdio: 'inherit', cwd: path.resolve(__dirname, '..') })
+    execSync('npm publish --access public', { stdio: 'inherit' })
     consola.success('Published')
   }
   catch (error) {

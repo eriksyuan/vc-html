@@ -5,6 +5,11 @@
   "description": "vue3 v-html componnet",
   "author": "eriksyuan",
   "license": "MIT",
+  "homepage": "https://github.com/eriksyuan/vc-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriksyuan/vc-html.git"
+  },
   "keywords": [
     "vue",
     "vue3",
