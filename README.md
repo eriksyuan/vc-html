@@ -1,15 +1,15 @@
-## InnerHtml
+## vc-html
 
 vue3 component replace v-html directive 
 ### Install
 ```
-npm install @eriksyuan/innerHtml
+npm install @eriksyuan/vc-html
 ```
 ### Usage
 
 ```vue
 <script setup>
-import InnerHtml from '@eriksyuan/innerHtml'
+import InnerHtml from '@eriksyuan/vc-html'
 const html = '<div>hello world</div>'
 </script>
 
@@ -25,7 +25,7 @@ const html = '<div>hello world</div>'
 demo
 ```vue
 <script setup>
-import InnerHtml from '@eriksyuan/innerHtml'
+import InnerHtml from '@eriksyuan/vc-html'
 const html = `
 <div>
     <ul>
